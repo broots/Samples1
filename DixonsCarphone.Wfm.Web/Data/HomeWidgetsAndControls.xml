@@ -21,7 +21,7 @@
   <WidgetsAndControls>
     <Name>New Staff</Name>
     <PathToPartial>~/Views/Partials/_NewStaff.cshtml</PathToPartial>
-    <ShowOnUi>false</ShowOnUi>
+    <ShowOnUi>true</ShowOnUi>
     <OwnRow>true</OwnRow>
   </WidgetsAndControls>
   <WidgetsAndControls>
