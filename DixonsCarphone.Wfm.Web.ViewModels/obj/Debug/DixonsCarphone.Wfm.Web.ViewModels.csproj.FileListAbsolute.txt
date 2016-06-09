@@ -1,0 +1,13 @@
+C:\Users\CAD3244\Downloads\Samples-master\Samples-master\DixonsCarphone.Wfm.Web_WithDashboard\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Web.ViewModels\bin\Debug\DixonsCarphone.Wfm.Web.ViewModels.dll
+C:\Users\CAD3244\Downloads\Samples-master\Samples-master\DixonsCarphone.Wfm.Web_WithDashboard\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Web.ViewModels\bin\Debug\DixonsCarphone.Wfm.Web.ViewModels.pdb
+C:\Users\CAD3244\Downloads\Samples-master\Samples-master\DixonsCarphone.Wfm.Web_WithDashboard\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Web.ViewModels\obj\Debug\DixonsCarphone.Wfm.Web.ViewModels.dll
+C:\Users\CAD3244\Downloads\Samples-master\Samples-master\DixonsCarphone.Wfm.Web_WithDashboard\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Web.ViewModels\obj\Debug\DixonsCarphone.Wfm.Web.ViewModels.pdb
+C:\JBDev\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Web.ViewModels\bin\Debug\DixonsCarphone.Wfm.Web.ViewModels.dll
+C:\JBDev\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Web.ViewModels\bin\Debug\DixonsCarphone.Wfm.Web.ViewModels.pdb
+C:\JBDev\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Web.ViewModels\obj\Debug\DixonsCarphone.Wfm.Web.ViewModels.dll
+C:\JBDev\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Web.ViewModels\obj\Debug\DixonsCarphone.Wfm.Web.ViewModels.pdb
+C:\Dev\Samples\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Web.ViewModels\bin\Debug\DixonsCarphone.Wfm.Web.ViewModels.dll
+C:\Dev\Samples\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Web.ViewModels\bin\Debug\DixonsCarphone.Wfm.Web.ViewModels.pdb
+C:\Dev\Samples\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Web.ViewModels\obj\Debug\DixonsCarphone.Wfm.Web.ViewModels.csprojResolveAssemblyReference.cache
+C:\Dev\Samples\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Web.ViewModels\obj\Debug\DixonsCarphone.Wfm.Web.ViewModels.dll
+C:\Dev\Samples\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Web.ViewModels\obj\Debug\DixonsCarphone.Wfm.Web.ViewModels.pdb

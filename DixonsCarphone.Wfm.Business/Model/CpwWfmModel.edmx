@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DixonsCarphone.Wfm.Business.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Store">
+          <Key>
+            <PropertyRef Name="StoreId" />
+          </Key>
+          <Property Name="StoreId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="StoreRef" Type="nvarchar" MaxLength="50" />
+          <Property Name="Address1" Type="nvarchar" MaxLength="50" />
+          <Property Name="Address2" Type="nvarchar" MaxLength="50" />
+          <Property Name="City" Type="nvarchar" MaxLength="50" />
+          <Property Name="Town" Type="nvarchar" MaxLength="50" />
+          <Property Name="PostCode" Type="nvarchar" MaxLength="10" />
+          <Property Name="Tel" Type="nvarchar" MaxLength="20" />
+          <Property Name="IpRange" Type="nvarchar" MaxLength="150" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="DateModified" Type="datetime" />
+        </EntityType>
+        <EntityType Name="StoreOpeningTimes">
+          <Key>
+            <PropertyRef Name="StoreOpenTimeId" />
+          </Key>
+          <Property Name="UNI_ID_OPEN" Type="float" />
+          <Property Name="CST_CNTR_ID" Type="float" />
+          <Property Name="CST_CNTR_SID" Type="float" />
+          <Property Name="WEEK_COMMENCE" Type="float" />
+          <Property Name="SUN_OPEN" Type="float" />
+          <Property Name="SUN_CLOSE" Type="float" />
+          <Property Name="MON_OPEN" Type="float" />
+          <Property Name="MON_CLOSE" Type="float" />
+          <Property Name="TUE_OPEN" Type="float" />
+          <Property Name="TUE_CLOSE" Type="float" />
+          <Property Name="WED_OPEN" Type="float" />
+          <Property Name="WED_CLOSE" Type="float" />
+          <Property Name="THU_OPEN" Type="float" />
+          <Property Name="THU_CLOSE" Type="float" />
+          <Property Name="FRI_OPEN" Type="float" />
+          <Property Name="FRI_CLOSE" Type="float" />
+          <Property Name="SAT_OPEN" Type="float" />
+          <Property Name="SAT_CLOSE" Type="float" />
+          <Property Name="DATE_SUBMIT" Type="datetime" />
+          <Property Name="IS_CURRENT" Type="float" />
+          <Property Name="IS_PENDING" Type="float" />
+          <Property Name="USER_ID" Type="float" />
+          <Property Name="UNI_REPLACEMENT" Type="nvarchar" MaxLength="255" />
+          <Property Name="ADMIN_UPDATING" Type="float" />
+          <Property Name="REJECTED_UPDATE" Type="float" />
+          <Property Name="StoreOpenTimeId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="DixonsCarphoneWfmBusinessStoreContainer">
+          <EntitySet Name="Store" EntityType="Self.Store" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="StoreOpeningTimes" EntityType="Self.StoreOpeningTimes" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DixonsCarphone.Wfm.Business" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Store">
+          <Key>
+            <PropertyRef Name="StoreId" />
+          </Key>
+          <Property Name="StoreId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="StoreRef" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Address1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Address2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Town" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="PostCode" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="Tel" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="IpRange" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="DateCreated" Type="DateTime" Precision="3" />
+          <Property Name="DateModified" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="StoreOpeningTime">
+          <Key>
+            <PropertyRef Name="StoreOpenTimeId" />
+          </Key>
+          <Property Name="UNI_ID_OPEN" Type="Double" />
+          <Property Name="CST_CNTR_ID" Type="Double" />
+          <Property Name="CST_CNTR_SID" Type="Double" />
+          <Property Name="WEEK_COMMENCE" Type="Double" />
+          <Property Name="SUN_OPEN" Type="Double" />
+          <Property Name="SUN_CLOSE" Type="Double" />
+          <Property Name="MON_OPEN" Type="Double" />
+          <Property Name="MON_CLOSE" Type="Double" />
+          <Property Name="TUE_OPEN" Type="Double" />
+          <Property Name="TUE_CLOSE" Type="Double" />
+          <Property Name="WED_OPEN" Type="Double" />
+          <Property Name="WED_CLOSE" Type="Double" />
+          <Property Name="THU_OPEN" Type="Double" />
+          <Property Name="THU_CLOSE" Type="Double" />
+          <Property Name="FRI_OPEN" Type="Double" />
+          <Property Name="FRI_CLOSE" Type="Double" />
+          <Property Name="SAT_OPEN" Type="Double" />
+          <Property Name="SAT_CLOSE" Type="Double" />
+          <Property Name="DATE_SUBMIT" Type="DateTime" Precision="3" />
+          <Property Name="IS_CURRENT" Type="Double" />
+          <Property Name="IS_PENDING" Type="Double" />
+          <Property Name="USER_ID" Type="Double" />
+          <Property Name="UNI_REPLACEMENT" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="ADMIN_UPDATING" Type="Double" />
+          <Property Name="REJECTED_UPDATE" Type="Double" />
+          <Property Name="StoreOpenTimeId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityContainer Name="CpwWfmContext" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Stores" EntityType="Self.Store" />
+          <EntitySet Name="StoreOpeningTimes" EntityType="Self.StoreOpeningTime" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DixonsCarphoneWfmBusinessStoreContainer" CdmEntityContainer="CpwWfmContext">
+          <EntitySetMapping Name="Stores">
+            <EntityTypeMapping TypeName="DixonsCarphone.Wfm.Business.Store">
+              <MappingFragment StoreEntitySet="Store">
+                <ScalarProperty Name="StoreId" ColumnName="StoreId" />
+                <ScalarProperty Name="StoreRef" ColumnName="StoreRef" />
+                <ScalarProperty Name="Address1" ColumnName="Address1" />
+                <ScalarProperty Name="Address2" ColumnName="Address2" />
+                <ScalarProperty Name="City" ColumnName="City" />
+                <ScalarProperty Name="Town" ColumnName="Town" />
+                <ScalarProperty Name="PostCode" ColumnName="PostCode" />
+                <ScalarProperty Name="Tel" ColumnName="Tel" />
+                <ScalarProperty Name="IpRange" ColumnName="IpRange" />
+                <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+                <ScalarProperty Name="DateModified" ColumnName="DateModified" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StoreOpeningTimes">
+            <EntityTypeMapping TypeName="DixonsCarphone.Wfm.Business.StoreOpeningTime">
+              <MappingFragment StoreEntitySet="StoreOpeningTimes">
+                <ScalarProperty Name="UNI_ID_OPEN" ColumnName="UNI_ID_OPEN" />
+                <ScalarProperty Name="CST_CNTR_ID" ColumnName="CST_CNTR_ID" />
+                <ScalarProperty Name="CST_CNTR_SID" ColumnName="CST_CNTR_SID" />
+                <ScalarProperty Name="WEEK_COMMENCE" ColumnName="WEEK_COMMENCE" />
+                <ScalarProperty Name="SUN_OPEN" ColumnName="SUN_OPEN" />
+                <ScalarProperty Name="SUN_CLOSE" ColumnName="SUN_CLOSE" />
+                <ScalarProperty Name="MON_OPEN" ColumnName="MON_OPEN" />
+                <ScalarProperty Name="MON_CLOSE" ColumnName="MON_CLOSE" />
+                <ScalarProperty Name="TUE_OPEN" ColumnName="TUE_OPEN" />
+                <ScalarProperty Name="TUE_CLOSE" ColumnName="TUE_CLOSE" />
+                <ScalarProperty Name="WED_OPEN" ColumnName="WED_OPEN" />
+                <ScalarProperty Name="WED_CLOSE" ColumnName="WED_CLOSE" />
+                <ScalarProperty Name="THU_OPEN" ColumnName="THU_OPEN" />
+                <ScalarProperty Name="THU_CLOSE" ColumnName="THU_CLOSE" />
+                <ScalarProperty Name="FRI_OPEN" ColumnName="FRI_OPEN" />
+                <ScalarProperty Name="FRI_CLOSE" ColumnName="FRI_CLOSE" />
+                <ScalarProperty Name="SAT_OPEN" ColumnName="SAT_OPEN" />
+                <ScalarProperty Name="SAT_CLOSE" ColumnName="SAT_CLOSE" />
+                <ScalarProperty Name="DATE_SUBMIT" ColumnName="DATE_SUBMIT" />
+                <ScalarProperty Name="IS_CURRENT" ColumnName="IS_CURRENT" />
+                <ScalarProperty Name="IS_PENDING" ColumnName="IS_PENDING" />
+                <ScalarProperty Name="USER_ID" ColumnName="USER_ID" />
+                <ScalarProperty Name="UNI_REPLACEMENT" ColumnName="UNI_REPLACEMENT" />
+                <ScalarProperty Name="ADMIN_UPDATING" ColumnName="ADMIN_UPDATING" />
+                <ScalarProperty Name="REJECTED_UPDATE" ColumnName="REJECTED_UPDATE" />
+                <ScalarProperty Name="StoreOpenTimeId" ColumnName="StoreOpenTimeId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

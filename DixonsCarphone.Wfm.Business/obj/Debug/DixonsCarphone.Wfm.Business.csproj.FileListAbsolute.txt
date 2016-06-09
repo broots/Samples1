@@ -1,0 +1,13 @@
+C:\Users\CAD3244\Downloads\Samples-master\Samples-master\DixonsCarphone.Wfm.Web_WithDashboard\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\bin\Debug\DixonsCarphone.Wfm.Business.dll
+C:\Users\CAD3244\Downloads\Samples-master\Samples-master\DixonsCarphone.Wfm.Web_WithDashboard\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\bin\Debug\DixonsCarphone.Wfm.Business.pdb
+C:\Users\CAD3244\Downloads\Samples-master\Samples-master\DixonsCarphone.Wfm.Web_WithDashboard\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\obj\Debug\DixonsCarphone.Wfm.Business.dll
+C:\Users\CAD3244\Downloads\Samples-master\Samples-master\DixonsCarphone.Wfm.Web_WithDashboard\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\obj\Debug\DixonsCarphone.Wfm.Business.pdb
+C:\JBDev\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\bin\Debug\DixonsCarphone.Wfm.Business.dll
+C:\JBDev\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\bin\Debug\DixonsCarphone.Wfm.Business.pdb
+C:\JBDev\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\obj\Debug\DixonsCarphone.Wfm.Business.dll
+C:\JBDev\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\obj\Debug\DixonsCarphone.Wfm.Business.pdb
+C:\Dev\Samples\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\bin\Debug\DixonsCarphone.Wfm.Business.dll
+C:\Dev\Samples\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\bin\Debug\DixonsCarphone.Wfm.Business.pdb
+C:\Dev\Samples\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\obj\Debug\DixonsCarphone.Wfm.Business.csprojResolveAssemblyReference.cache
+C:\Dev\Samples\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\obj\Debug\DixonsCarphone.Wfm.Business.dll
+C:\Dev\Samples\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\obj\Debug\DixonsCarphone.Wfm.Business.pdb

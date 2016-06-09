@@ -1,0 +1,8 @@
+C:\Users\CAD3244\Downloads\Samples-master\Samples-master\DixonsCarphone.Wfm.Web_WithDashboard\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\bin\Release\DixonsCarphone.Wfm.Business.dll
+C:\Users\CAD3244\Downloads\Samples-master\Samples-master\DixonsCarphone.Wfm.Web_WithDashboard\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\bin\Release\DixonsCarphone.Wfm.Business.pdb
+C:\Users\CAD3244\Downloads\Samples-master\Samples-master\DixonsCarphone.Wfm.Web_WithDashboard\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\obj\Release\DixonsCarphone.Wfm.Business.dll
+C:\Users\CAD3244\Downloads\Samples-master\Samples-master\DixonsCarphone.Wfm.Web_WithDashboard\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\obj\Release\DixonsCarphone.Wfm.Business.pdb
+C:\JBDev\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\bin\Release\DixonsCarphone.Wfm.Business.dll
+C:\JBDev\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\bin\Release\DixonsCarphone.Wfm.Business.pdb
+C:\JBDev\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\obj\Release\DixonsCarphone.Wfm.Business.dll
+C:\JBDev\DixonsCarphone.Wfm.Web\DixonsCarphone.Wfm.Business\obj\Release\DixonsCarphone.Wfm.Business.pdb

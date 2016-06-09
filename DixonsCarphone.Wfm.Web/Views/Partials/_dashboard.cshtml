@@ -1,0 +1,24 @@
+﻿<div class="pageBody">
+    <div class="dashboard">
+        <div class="dashboard3Col">
+            <div class="dashboardCol">
+                @{Html.RenderAction("dashboardItem_Users", "DashBoard");}
+
+                @{Html.RenderAction("dashboardItem_Orders", "DashBoard");}
+            </div>
+            <div class="dashboardCol">
+                @{Html.RenderAction("dashboardItem_SalesPie", "DashBoard");
+
+                    Html.RenderAction("dashboardItem_Users", "DashBoard");
+                }
+            </div>
+            <div class="dashboardCol">
+                @{ Html.RenderAction("dashboardItem_Visitors", "DashBoard");
+                    Html.RenderAction("dashboardItem_Users", "DashBoard");
+                }
+            </div>
+            <div class="dashboardFooter"></div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ArrayOfWidgetsAndControls xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <WidgetsAndControls>
+    <Name>Events</Name>
+    <PathToPartial>~/Views/Partials/Widgets/_Events.cshtml</PathToPartial>
+    <ShowOnUi>true</ShowOnUi>
+    <OwnRow>false</OwnRow>
+  </WidgetsAndControls>
+  <WidgetsAndControls>
+    <Name>Footfall</Name>
+    <PathToPartial>~/Views/Partials/Widgets/_Footfall.cshtml</PathToPartial>
+    <ShowOnUi>true</ShowOnUi>
+    <OwnRow>false</OwnRow>
+  </WidgetsAndControls>
+  <WidgetsAndControls>
+    <Name>Orders</Name>
+    <PathToPartial>~/Views/Partials/Widgets/_Orders.cshtml</PathToPartial>
+    <ShowOnUi>true</ShowOnUi>
+    <OwnRow>false</OwnRow>
+  </WidgetsAndControls>
+  <WidgetsAndControls>
+    <Name>New Staff</Name>
+    <PathToPartial>~/Views/Partials/_NewStaff.cshtml</PathToPartial>
+    <ShowOnUi>false</ShowOnUi>
+    <OwnRow>true</OwnRow>
+  </WidgetsAndControls>
+  <WidgetsAndControls>
+    <Name>Product Lis</Name>
+    <PathToPartial>~/Views/Partials/_ProductList.cshtml</PathToPartial>
+    <ShowOnUi>true</ShowOnUi>
+    <OwnRow>true</OwnRow>
+  </WidgetsAndControls>
+  <WidgetsAndControls>
+    <Name>UK KPIs</Name>
+    <PathToPartial>~/Views/Partials/_UkKpis.cshtml</PathToPartial>
+    <ShowOnUi>true</ShowOnUi>
+    <OwnRow>true</OwnRow>
+  </WidgetsAndControls>
+</ArrayOfWidgetsAndControls>
